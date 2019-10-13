@@ -7,4 +7,6 @@ Using the data collected from the accelerometers from the Samsung Galaxy S smart
 - Columns were given meaningful names
 - Only the mean and SD columns were extracted (along with the Subject and Activity columns)
 - This new dataset was used to create the tidy dataset containing the average of each variable for each activity and each subject 
+
 The code is contained in run_analysis.R
+- Run the code once the dataset is unzipped and saved in the working directory

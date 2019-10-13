@@ -32,7 +32,7 @@ feature_names<-gsub("mean","Mean",feature_names)
 feature_names<-gsub("std","StdDev",feature_names)
 mean_sd_colnums <- grep('Mean|StdDev', feature_names)
 
-# Create a combined (Subject, Activity(Y), Feature(X)) dataset
+# Create a combined (Subject, Activity(Y), Feature(X))  dataset
 Merged_DS<-cbind(Subject,Y,X)
 
 # Add column names
